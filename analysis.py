@@ -20,3 +20,4 @@ print("Tipo de dato de 'release_year':", df['release_year'].dtype)
 # La columna “listed_in” contiene diferentes valores separados por coma, ¿Puedes crear una columna y quedarte con el primer valor?
 print("Primeros 5 valores de 'main_genre':")
 print(df['main_genre'].head())
+

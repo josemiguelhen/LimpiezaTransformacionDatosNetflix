@@ -1,4 +1,3 @@
-
 # Proyecto de Limpieza y Transformación de Datos de Netflix
 
 ## Descripción del Proyecto
@@ -20,36 +19,36 @@ Este proyecto tiene como objetivo demostrar la capacidad de lidiar con “datos 
 ```bash
 git clone https://github.com/tu-usuario/netflix_data_cleaning.git
 cd netflix_data_cleaning
+
 Crear y Activar un Entorno Virtual
 Usando Conda:
 
-bash
-Copiar código
 conda create -n netflix_env python=3.8
 conda activate netflix_env
+
 Instalar las Dependencias
-bash
-Copiar código
+
 pip install pandas numpy
+ 
 Uso
 Ejecutar el Script de Limpieza de Datos
 Asegúrate de que el archivo netflix1.csv esté en el mismo directorio que el script data_cleaning.py. Luego, ejecuta el siguiente comando:
 
-bash
-Copiar código
 python data_cleaning.py
+
 Esto cargará el dataset, realizará la limpieza y transformación, y guardará el resultado en un nuevo archivo netflix_cleaned.csv.
 
 Estructura del Proyecto
-bash
-Copiar código
+
 netflix_data_cleaning/
 │
 ├── netflix1.csv             # Dataset original
 ├── netflix_cleaned.csv      # Dataset limpio y transformado
 ├── data_cleaning.py         # Script de limpieza y transformación de datos
 └── README.md                # Documentación del proyecto
+
 Preguntas de Guía
+
 ¿Cuántos valores nulos encuentras en los datos? ¿Los puedes eliminar?
 Se eliminaron todos los valores nulos del dataset.
 ¿Cuántos valores incompletos encuentras en los datos? ¿Los puedes reemplazar?
